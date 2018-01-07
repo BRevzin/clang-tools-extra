@@ -13,6 +13,7 @@
 #include "ArgumentCommentCheck.h"
 #include "AssertSideEffectCheck.h"
 #include "BoolPointerImplicitConversionCheck.h"
+#include "ChainedComparisonCheck.h"
 #include "CopyConstructorInitCheck.h"
 #include "DanglingHandleCheck.h"
 #include "FoldInitTypeCheck.h"
@@ -41,6 +42,8 @@ public:
         "bugprone-assert-side-effect");
     CheckFactories.registerCheck<BoolPointerImplicitConversionCheck>(
         "bugprone-bool-pointer-implicit-conversion");
+    CheckFactories.registerCheck<ChainedComparisonCheck>(
+        "bugprone-chained-comparison");
     CheckFactories.registerCheck<CopyConstructorInitCheck>(
         "bugprone-copy-constructor-init");
     CheckFactories.registerCheck<DanglingHandleCheck>(

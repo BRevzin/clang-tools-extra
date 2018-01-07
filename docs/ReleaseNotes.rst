@@ -57,6 +57,11 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
+- New `bugprone-chained-comparison
+  <http://clang.llvm.org/extra/clang-tidy/checks/bugprone-chained-comparison.html>`_ check
+
+  FIXME: add release notes.
+
 - ...
 
 Improvements to include-fixer

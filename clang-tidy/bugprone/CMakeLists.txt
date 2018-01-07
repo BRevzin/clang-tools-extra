@@ -5,6 +5,7 @@ add_clang_library(clangTidyBugproneModule
   AssertSideEffectCheck.cpp
   BoolPointerImplicitConversionCheck.cpp
   BugproneTidyModule.cpp
+  ChainedComparisonCheck.cpp
   CopyConstructorInitCheck.cpp
   DanglingHandleCheck.cpp
   FoldInitTypeCheck.cpp

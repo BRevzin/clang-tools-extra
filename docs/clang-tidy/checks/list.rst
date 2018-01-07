@@ -20,6 +20,7 @@ Clang-Tidy Checks
    bugprone-argument-comment
    bugprone-assert-side-effect
    bugprone-bool-pointer-implicit-conversion
+   bugprone-chained-comparison
    bugprone-copy-constructor-init
    bugprone-dangling-handle
    bugprone-fold-init-type
